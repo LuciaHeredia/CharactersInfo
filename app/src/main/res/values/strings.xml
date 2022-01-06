@@ -3,8 +3,29 @@
     <string name="character">character</string>
     <string name="character_name">character_name</string>
     <string name="character_role">character_role</string>
+
+    /* Characters Data */
     <string name="char1">IRON MAN</string>
-    <string name="char1role">Tony Starck</string>
-    <string name="char2">bal babl</string>
-    <string name="char2role">yy yy</string>
+    <string name="char1role">Inventor Tony Stark applies his genius for high-tech solutions to problems as Iron Man, the armored Avenger.</string>
+    <string name="char2">CAPTAIN AMERICA</string>
+    <string name="char2role">Recipient of the Super Soldier serum, World War II hero Steve Rogers fights for American ideals as one of the world’s mightiest heroes and the leader of the Avengers.</string>
+    <string name="char3">THOR</string>
+    <string name="char3role">The son of Odin uses his mighty abilities as the God of Thunder to protect his home Asgard and planet Earth alike.</string>
+
+
+
+
+    <string name="char4">IRON MAN</string>
+    <string name="char4role">Inventor Tony Stark applies his genius for high-tech solutions to problems as Iron Man, the armored Avenger.</string>
+
+    <string name="char5">IRON MAN</string>
+    <string name="char5role">Inventor Tony Stark applies his genius for high-tech solutions to problems as Iron Man, the armored Avenger.</string>
+
+    <string name="char6">IRON MAN</string>
+    <string name="char6role">Inventor Tony Stark applies his genius for high-tech solutions to problems as Iron Man, the armored Avenger.</string>
+
+    <string name="char7">IRON MAN</string>
+    <string name="char7role">Inventor Tony Stark applies his genius for high-tech solutions to problems as Iron Man, the armored Avenger.</string>
+    <string name="back">BACK</string>
+
 </resources>
