@@ -8,6 +8,7 @@
     android:layout_height="wrap_content"
     android:layout_margin="10dp"
     android:clickable="true"
+    android:transitionName="@{@string/character_card_transition(jsonString)}"
     app:cardElevation="6dp"
     tools:ignore="TouchTargetSizeCheck">
 

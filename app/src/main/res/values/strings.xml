@@ -1,9 +1,4 @@
 <resources>
-    <string name="app_name">AvengersEndGameCharacters</string>
-    <string name="character">character</string>
-    <string name="character_name">character_name</string>
-    <string name="character_role">character_role</string>
-    <string name="back">BACK</string>
 
     /* Characters Data */
     <string name="char1">IRON MAN</string>
@@ -32,5 +27,13 @@
     <string name="char12role">As the weapons and tactical expert of the Guardians of the Galaxy, Rocket risks his hide to defend the cosmos, including collecting valuable bounty alongside his friend and partner, Groot. Quick to train a weapon on anyone who offends him, he’s far more formidable than he appears.</string>
     <string name="char13">WONG</string>
     <string name="char13role">Wong is a Master of the Mystic Arts who protects the New York Sanctum alongside Doctor Strange.</string>
+
+    /* Other Sources */
+    <string name="app_name">AvengersEndGameCharacters</string>
+    <string name="character">character</string>
+    <string name="character_name">character_name</string>
+    <string name="character_role">character_role</string>
+    <string name="back">BACK</string>
+    <string name="character_card_transition">card_transition_name</string>
 
 </resources>
