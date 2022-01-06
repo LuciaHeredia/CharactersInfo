@@ -9,7 +9,9 @@ import androidx.navigation.Navigation
 import androidx.navigation.fragment.navArgs
 import com.example.avengersendgamecharacters.R
 import com.example.avengersendgamecharacters.databinding.FragmentDetailsBinding
-import com.google.gson.Gson
+import com.example.avengersendgamecharacters.model.Character
+import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
+
 
 class DetailsFragment : Fragment() {
 
@@ -27,9 +29,15 @@ class DetailsFragment : Fragment() {
         val view = binding.root
 
         val displayCharacter = args.character // get data from HomeFragment
-      //  val characterDetails = Gson().fromJson(displayCharacter, Character::class.java) // convert json to Character model
 
-        binding.charRoleDetails.text = displayCharacter // NOT WORKING
+        // convert json to Character model
+        val mapper = jacksonObjectMapper()
+        val characterDetails: Character = mapper.readValue(displayCharacter, Character::class.java)
+
+        // insert in fragment objects
+        binding.imageviewDetails.setImageResource(characterDetails.bigger_image)
+        binding.charNameDetails.text = context?.resources!!.getString(characterDetails.name)
+        binding.charRoleDetails.text = context?.resources!!.getString(characterDetails.role)
 
         binding.buttonBack.setOnClickListener {
             Navigation.findNavController(binding.root).navigate(R.id.action_detailsFragment_to_homeFragment)

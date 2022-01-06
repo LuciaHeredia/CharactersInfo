@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.avengersendgamecharacters.adapter.DataAdapter
 import com.example.avengersendgamecharacters.data.DataSource
 import com.example.avengersendgamecharacters.databinding.FragmentHomeBinding
+import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 
 class HomeFragment : Fragment(){
     private lateinit var binding: FragmentHomeBinding
@@ -26,7 +27,9 @@ class HomeFragment : Fragment(){
         binding.recyclerview.adapter = adapter // Setting Adapter with recyclerview
         adapter.setOnItemClickListener(object : DataAdapter.OnItemClickListener{
             override fun onItemClick(position: Int) {
-                val action = HomeFragmentDirections.actionHomeFragmentToDetailsFragment(myDataset[position].toString())
+                val mapper = jacksonObjectMapper()
+                val jsonString = mapper.writeValueAsString(myDataset[position])
+                val action = HomeFragmentDirections.actionHomeFragmentToDetailsFragment(jsonString)
                 Navigation.findNavController(binding.root).navigate(action)
             }
         })
