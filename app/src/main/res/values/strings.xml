@@ -19,18 +19,18 @@
     <string name="char6">CAPTAIN MARVEL</string>
     <string name="char6role">Carol Danvers becomes one of the universe\'s most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.</string>
     <string name="char7">HULK</string>
-    <string name="char7role">Exposed to heavy doses of gamma radiation, scientist Bruce Banner transforms into the mean, green rage machine called the Hulk. </string>
-
-    <string name="char8">HULK</string>
-    <string name="char8role">I</string>
-
-    <string name="char9">HULK</string>
-    <string name="char9role">I</string>
-
-    <string name="char10">HULK</string>
-    <string name="char10role">I</string>
-
-    <string name="char11">HULK</string>
-    <string name="char11role">I</string>
+    <string name="char7role">Exposed to heavy doses of gamma radiation, scientist Bruce Banner transforms into the mean, green rage machine called the Hulk.</string>
+    <string name="char8">HAWKEYE</string>
+    <string name="char8role">An expert marksman and fighter, Clint Barton puts his talents to good use by working for S.H.I.E.L.D. as a special agent. The archer known as Hawkeye also boasts a strong moral compass that at times leads him astray from his direct orders.</string>
+    <string name="char9">WAR MACHINE</string>
+    <string name="char9role">Air Force Lieutenant Colonel James “Rhodey” Rhodes exudes loyalty and courage, whether flying a plane or piloting the War Machine armor.</string>
+    <string name="char10">NEBULA</string>
+    <string name="char10role">The fierce warrior Nebula is the adopted daughter of Thanos and the “sister” of Gamora. As the Mad Titan raised his “daughters,” he trained the two in combat, often forcing them to face off against each other.</string>
+    <string name="char11">OKOYE</string>
+    <string name="char11role">Okoye serves the Black Panther as a personal bodyguard and the nation of Wakanda as a torchbearer of tradition and virtue. Okoye is as deadly as she is wise, and stands as one of T’Challa’s most trusted allies and companions.</string>
+    <string name="char12">ROCKET</string>
+    <string name="char12role">As the weapons and tactical expert of the Guardians of the Galaxy, Rocket risks his hide to defend the cosmos, including collecting valuable bounty alongside his friend and partner, Groot. Quick to train a weapon on anyone who offends him, he’s far more formidable than he appears.</string>
+    <string name="char13">WONG</string>
+    <string name="char13role">Wong is a Master of the Mystic Arts who protects the New York Sanctum alongside Doctor Strange.</string>
 
 </resources>
