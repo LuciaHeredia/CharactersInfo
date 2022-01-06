@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.activity.OnBackPressedCallback
 import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
 import androidx.navigation.fragment.navArgs
@@ -40,7 +41,7 @@ class DetailsFragment : Fragment() {
         binding.charRoleDetails.text = context?.resources!!.getString(characterDetails.role)
 
         binding.buttonBack.setOnClickListener {
-            Navigation.findNavController(binding.root).navigate(R.id.action_detailsFragment_to_homeFragment)
+            requireActivity().onBackPressed() // back to HomeFragment
         }
 
         return view
