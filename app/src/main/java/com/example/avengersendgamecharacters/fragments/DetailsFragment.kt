@@ -39,10 +39,6 @@ class DetailsFragment : Fragment() {
         binding.charNameDetails.text = context?.resources!!.getString(characterDetails.name)
         binding.charRoleDetails.text = context?.resources!!.getString(characterDetails.role)
 
-        binding.buttonBack.setOnClickListener {
-            requireActivity().onBackPressed() // back to HomeFragment
-        }
-
         return view
     }
 
