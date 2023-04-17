@@ -10,6 +10,7 @@ To transfer the selected Character from the RecyclerView between the fragments, 
 
 <img src = "gif-example.gif" height="580">
 
-## App created with:
+## Created with:
+* Android Studio: Kotlin.
 * Android version: 12
 * SDK version: 31
